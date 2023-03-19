@@ -1,5 +1,5 @@
-# Pyfuck
-Pyfuck is a very limited python to brainfuck translater. It has alot of limitations but is still in beta, and is mainly a fun little tool.
+# Pyf
+Pyf is a very limited python to brainf translater. It has alot of limitations but is still in beta, and is mainly a fun little tool.
 
 ## Limitations
 It would be easier to say what it can do then what it cant. Well to start all it can convert is:<br>
