@@ -56,7 +56,7 @@ class PrintFinder(ast.NodeVisitor):
 
         return bf_code
 
-def python_to_brainfuck(code):
+def python_to_brainf(code):
     # Parse the Python code to find all print, input and function statements
     tree = ast.parse(code)
     printer = PrintFinder()
@@ -77,4 +77,4 @@ flo = input("Enter file to ouput: ")
 with open(fl) as f:
     content = f.read()
 
-python_to_brainfuck(content)
+python_to_brainf(content)
