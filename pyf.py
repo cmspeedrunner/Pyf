@@ -73,7 +73,7 @@ def python_to_brainf(code):
     return bf_code
 
 fl = input("Enter the Python file to convert: ")
-flo = input("Enter file to ouput: ")
+flo = input("Enter file to output: ")
 with open(fl) as f:
     content = f.read()
 
